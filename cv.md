@@ -62,8 +62,6 @@ function pow(x, n) {
 
 - Front-end developer(React.js)
 
-#####
-
 #### **_Project: builds.io_**
 
 ##### **Description:**
