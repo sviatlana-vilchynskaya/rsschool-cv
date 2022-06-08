@@ -6,14 +6,30 @@ body {
   font-family: 'Barlow', sans-serif;
 }
 
+h2 {
+  margin: 10px 0;
+  color: rgb(94, 6, 42);
+  font-weight: 700;
+  padding: 5px 8px 5px 8px;
+  font-size: 20px;
+  border-radius: 5px;
+  box-shadow: 8px 8px 20px 10px rgba(110, 4, 84, 0.23);
+}
+
+li {
+  color: rgb(78, 6, 69);
+  font-weight: 400;
+  font-size: 18px;
+}
+
 .container-center {
   width: 1024px;
   margin: 20px auto;
-  padding: 20px;
   border-radius: 5px;
   background-color: white;
   box-shadow: 8px 8px 40px 10px rgb(0 0 0 / 23%);
 }
+
 .columns-wrapper {
   display: flex;
 }
@@ -37,10 +53,12 @@ body {
   font-size: 20px;
   color: white;
 }
+
 .column-one {
   background-color: #ffc0cb;
   width: 35%;
-  border-radius: 50% 0 0 0;
+  border-radius: 5px 0 0 0;
+  padding: 18px;
 }
 
 .column-two {
