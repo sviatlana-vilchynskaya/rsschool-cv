@@ -35,6 +35,10 @@ a {
   color: var(--text-color);
 }
 
+nav a {
+  color: var(--white-color);
+}
+
 a:hover {
   transition: 0.3s;
 
@@ -89,7 +93,7 @@ section {
 
 .personal {
   width: 100%;
-  margin: 63px 0 55px -20px;
+  margin: 63px 0 30px -20px;
 
   padding: 0 38px 0 0;
 
@@ -98,23 +102,21 @@ section {
   background-color: var(--main-color);
 }
 
-.personal h1 {
-  margin-bottom: 5px;
-  padding-top: 20px;
-
-  color: var(--h1-color);
-
-  font-size: 35px;
-}
-
 .personal h2 {
   margin: 0;
+  padding: 40px 0;
 
   border-radius: 0;
   box-shadow: none;
 
-  font-size: 20px;
+  font-size: 35px;
   font-weight: 700;
+}
+
+.name {
+  padding: 0;
+
+  text-align: center;
 }
 
 .columns-wrapper {
